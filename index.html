@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Julien Dufaud</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Google fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.sea.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<body class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+      <div class="container"><a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt="" width="45"></a>
+        <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-uppercase active" href="#hero">Accueil <span
+                  class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#about">À propos</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#expertise">Expertise</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#experience">Expériences</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#education">Formations</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section-->
+  <section class="hero bg-cover bg-center py-5" id="hero" style="background: url(img/author.jpg)">
+    <div class="container py-5 my-5 z-index-20 position-relative">
+      <div class="row py-lg-5 mt-5">
+        <div class="col-md-8 text-white">
+          <h1 class="text-uppercase text-xl mb-0">Julien <span class="text-primary">Dufaud</span></h1>
+          <h2 class="h4 fw-normal mb-5">Ingénieur Cloud DevOps</h2>
+          <p class="text-shadow">Automatiser et faciliter le travail du développeur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section-->
+  <section class="py-5 bg-light" id="about">
+    <div class="container py-5">
+      <header class="mb-5">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Tout automatiser</p>
+        <h2 class="h3 lined">Augmenter la productivité des équipes</h2>
+      </header>
+      <p class="lead text-muted">Les activités <strong class="text-dark">DevOps</strong> ont été une révélation!</p>
+      <p class="text-muted">On remarque facilement un gain de productivité de l'équipe lorsque les bon choix techniques
+        sont mis en place, quel plaisir de tout automatiser!</p>
+      <p class="text-muted mb-0">Je me vois comme un facilitateur pour les développeurs.</p>
+      <p class="text-muted mb-0">Mon travail c'est de faire en sorte qu'ils n'aient à se soucier que de leur code!</p>
+    </div>
+  </section>
+  <!-- Expertise Section        -->
+  <section class="py-5" id="expertise">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Les bon outils</p>
+        <h2 class="text-uppercase lined">Expertise</h2>
+      </header>
+      <div class="row gy-5">
+        <div class="col-md-6">
+          <h3 class="h4"><span class="text-primary me-2">01</span>CI/CD</h3>
+          <p class="text-muted text-sm ms-4 ps-3">Intégrer le nouveau code, s'assurer du respect des bonnes pratiques,
+            vérifier la sécurité et automatiser les livraisons.</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h4"><span class="text-primary me-2">02</span>Infrastructure as code</h3>
+          <p class="text-muted text-sm ms-4 ps-3">Décrire son infrastructure avec du code permet de la versionner, la
+            documenter et assurer sa reproductibilité facilement.</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h4"><span class="text-primary me-2">03</span>Kubernetes</h3>
+          <p class="text-muted text-sm ms-4 ps-3">Kubernetes nous aide à héberger nos applications en permettant une
+            grande scalabilité, c'est l'orchestrateur de conteneurs de référence !</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h4"><span class="text-primary me-2">04</span>Cloud</h3>
+          <p class="text-muted text-sm ms-4 ps-3">On peut déléguer certaines de nos obligations aux cloud providers afin
+            de se concentrer sur le métier. Ils proposent des outils permettant le suivi des coûts et des bonnes
+            pratiques de sécurité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section        -->
+  <section class="py-5" id="experience">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Les plus significatives</p>
+        <h2 class="text-uppercase lined">Expériences</h2>
+      </header>
+      <!--  Timeline -->
+      <ul class="timeline">
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2023 – Actuellement </p>
+              <h2 class="h5 mb-0 text-uppercase">Maplr</h2>
+              <p class="text-sm mb-0">Ingénieur Cloud DevOps</p><span class="small text-muted">Montréal, Canada</span>
+            </div>
+            <div class="col-lg-7">
+              <h6>ARCHITECTURE CLOUD</h6>
+              <img src="img/GCP.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/GitHub.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Terraform.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Conception d’une architecture cloud générique GCP dans le but d’héberger de
+                multiples applications.</p>
+              <p class="text-muted">Utilisation de Terraform et Github (Github Actions) pour automatiser la livraison.
+              </p>
+              <p class="text-muted">Travail réalisé à partir du repository <a
+                  href="https://github.com/terraform-google-modules/terraform-example-foundation" target="_blank" rel="noopener noreferrer">terraform-example-foundation</a>
+                afin de
+                respecter les bonnes pratiques d’organisation et de sécurité.</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2020 - 2023 </p>
+              <h2 class="h5 mb-0 text-uppercase">Dekra</h2>
+              <p class="text-sm mb-0">Ingénieur Cloud DevOps</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <h6>CHAÎNE CI/CD, GITLAB</h6>
+              <img src="img/Gitlab.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Docker.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Anchore.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Dans un contexte de management agile et une architecture en micro-services cloud
+                native :</p>
+              <p class="text-muted">1 ) Conception et réalisation complète de toute la chaîne CI/CD via Gitlab :</p>
+              <ul class="text-muted">
+                <li>Build, test and deploy du back (.NET), front (React) et mobile (React Native) </li>
+                <li>Build des images Docker </li>
+                <li>Recherche des vulnérabilités (Anchore) </li>
+                <li>Stockage des images Docker sur des registries Azure ou Gitlab </li>
+                <li>Déploiement sur des clusters Kubernetes (AKS) en utilisant Kustomize </li>
+              </ul>
+              </p>
+              <p class="text-muted">Cette chaîne CI/CD a permis d’augmenter significativement la productivité des
+                développeurs tout en leur donnant de l’autonomie :
+                ce sont eux qui livrent jusqu’en production, plusieurs fois par semaine.</p>
+              <p class="text-muted">Une fois le code poussé, la livraison sur les différents environnements se fait en
+                quelques minutes. </p>
+              <p class="text-muted">2 ) Mise en place d’un script de supervision des paramètres de chaque repository.
+              <p class="text-muted">De nombreux repositories doivent être paramétrés et maitrisés notamment pour :
+              <ul class="text-muted">
+                <li>Les Merge Requests (ou Pull requests) </li>
+                <li>Les relectures et approbations </li>
+                <li>La protection des branches </li>
+              </ul>
+              </p>
+              <p class="text-muted">Le script, en Python, tourne périodiquement (lui-même dans un repository Gitlab avec
+                une Scheduled pipeline) pour corriger les
+                écarts automatiquement. </p>
+              <p class="text-muted">3 ) Création d’une pipeline quotidienne permettant de scanner les images Docker du
+                registry Azure à la recherche de CVE via
+                Anchore. </p>
+              <p class="text-muted">Cette pipeline remonte par mail les CVEs les plus récentes afin que l’on sache
+                quelle image mettre à jour et livrer.</p>
+              <p class="text-muted">4 ) Dockerfile: Les runners Gitlab utilisent des images Docker faites sur mesure
+                afin d’optimiser la durée des jobs. </p>
+              <p class="text-muted">Axe d’amélioration : Utiliser la pratique Gitops afin de sécuriser notre cluster en
+                limitant les accès au strict minimum.</p>
+
+              <h6>MANAGEMENT DE CLUSTER KUBERNETES</h6>
+              <img src="img/Kubernetes.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Datadog.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Kustomize.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/K9s.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">1 ) Supervision et maintenance de 4 clusters Kubernetes sur Azure (AKS) </p>
+              <p class="text-muted">Utilisation de plusieurs types de ressources :
+              <ul class="text-muted">
+                <li>Deployments (ce qui implique des ReplicaSets et Pods) </li>
+                <li>Services </li>
+                <li>IngressRoutes (via Traefik) </li>
+                <li>CronJobs (ce qui implique des Jobs) </li>
+                <li>HorizontalPodAutoscaler (hpa) </li>
+                <li>StatefulSets (notamment pour les pods Keycloak) </li>
+                <li>DaemonSets (notamment pour les agents DataDog, 1 par node) </li>
+              </ul>
+              </p>
+              <p class="text-muted">Le tout en utilisant directement kubectl ou k9s et directement depuis Gitlab (CD).
+              </p>
+              <p class="text-muted">En pratique, il y a un repository central qui contient les fichiers yaml commun à
+                toutes les applications. Les repositories de celles-ci en
+                héritent et précisent leurs particularités, si nécessaires. </p>
+              <p class="text-muted">On utilise ensuite Kustomize pour agréger tous les fichiers, notamment en
+                prenant en compte les overlays propres à chaque
+                environnement (Le tout dans un job Gitlab). </p>
+              <p class="text-muted">La configuration des deployments permet d’avoir des pods dont le nombre oscille
+                entre 1 et 5 en fonction de la charge CPU (hpa).
+                Ainsi, les clusters ne sont pas chargés inutilement. </p>
+              <p class="text-muted">2 ) Automatisation de l’installation (via des pipelines) des services suivants :
+              <ul class="text-muted">
+                <li>Traefik (Ingress Controller) </li>
+                <li>Agents Datadogs </li>
+                <li>Keycloak </li>
+              </ul>
+              </p>
+              <p class="text-muted">Le but étant d’être capable de relancer une nouvelle installation en un clic.</p>
+
+              <h6>CLOUD AZURE ET INFRASTRUCTURE AS CODE</h6>
+              <img src="img/Azure.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Terraform.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Conception et réalisation complète de l’Infrastructure As Code (IaC) avec
+                terraform
+              <p class="text-muted">Le but est d’automatiser la création/modification de nos ressources Azure:
+              <ul class="text-muted">
+                <li>Virtual networks </li>
+                <li>Subnets </li>
+                <li>Container registries </li>
+                <li>Postgres server </li>
+                <li>Mongo servers </li>
+                <li>Cluster k8s (aks) </li>
+                <li>Service bus et ses Topics/Subscriptions </li>
+                <li>Keyvaults </li>
+              </ul>
+              </p>
+              <p class="text-muted">Nous sommes capables de reconstruire l’intégralité de notre infrastructure Cloud en
+                (quasiment) un clic à partir d’une Subscription
+                Azure vierge.</p>
+              <p class="text-muted">De la même manière, on automatise la création de ressources Keycloak et Kubernetes
+                avec les providers Terraform correspondants.
+                Notamment le certificat HTTPS initialement stocké dans un Keyvault Azure et qui doit être livré sur le
+                cluster k8s.</p>
+              <p class="text-muted">L’IaC est un projet majeur permettant de répondre aux problématiques des Plans de
+                Reprise d’Activité et des Plans de Continuité
+                d’Activité.</p>
+
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2012 - 2020 </p>
+              <h2 class="h5 mb-0 text-uppercase">Dekra</h2>
+              <p class="text-sm mb-0">Ingénieur développement</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <h6>RÉALISATION DE MICRO-SERVICES</h6>
+              <img src="img/NET_Core.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Dans un contexte de management Agile, réalisation de 2 micro-services (back et
+                front) :</p>
+              <p class="text-muted">Les tâches qui nous été confiées :
+              <ul class="text-muted">
+                <li>Estimer la charge de travail à partir du besoin</li>
+                <li>Développer la fonctionnalité</li>
+                <li>Développer les tests unitaires</li>
+                <li>Livrer sur les différents environnements</li>
+              </ul>
+              </p>
+              <p class="text-muted">Le tout en utilisant :
+              <ul class="text-muted">
+                <li>.NET Core</li>
+                <li>React</li>
+                <li>MongoDB</li>
+                <li>PostreSQL</li>
+              </ul>
+              </p>
+              <p class="text-muted">Et un peu de Terraform pour créer les Subscriptions du Service-bus Azure et les
+                clients Keycloak.</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2018 </p>
+              <h2 class="h5 mb-0 text-uppercase">À titre personnel</h2>
+              <p class="text-sm mb-0">Développeur</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <h6>DÉVELOPPEMENT D’UNE APPLICATION DE GESTION DE BUDGETS</h6>
+              <img src="img/Python.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Vuejs.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px"><img src="img/Gitpod.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Il s’agit d’une application me permettant de gérer mes comptes comme je l’entends.
+              </p>
+              <p class="text-muted">L’application est composée d’un back en Python (Flask) et d’un front en Vue.js. </p>
+              <p class="text-muted">Le tout étant construit sur une instance Gitlab installée sur un NAS personnel avec
+                ses propres runners. </p>
+              <p class="text-muted">Le NAS héberge également ces services via Docker.</p>
+              <p class="text-muted">J’ai pu utiliser docker-compose, watchtower et Gitpod pour développer depuis
+                n’importe quelle machine !</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2012 </p>
+              <h2 class="h5 mb-0 text-uppercase">À titre personnel</h2>
+              <p class="text-sm mb-0">Développeur</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <h6>RÉALISATION D’UNE PLATEFORME DE VENTE DE VÉHICULE</h6>
+              <img src="img/NET.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">
+              <p class="text-muted">Semblable à un site de petites annonces mais à destination des professionnels, cette
+                plateforme permet de vendre des véhicules à
+                l’aide d’outils commerciaux tels que les promotions, ventes aux enchères, mix produits, etc...</p>
+              <p class="text-muted">À partir de spécifications fonctionnelles, je devais analyser la faisabilité et
+                développer la fonctionnalité.
+              <ul class="text-muted">
+                <li>.NET MVC (C#)</li>
+                <li>Javascript</li>
+                <li>SQL Server
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Education Section-->
+  <section class="py-5 bg-light" id="education">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Ça commence à être vieux</p>
+        <h2 class="text-uppercase lined">Formations</h2>
+      </header>
+      <!--  Timeline -->
+      <ul class="timeline">
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2022 </p>
+              <h2 class="h5 mb-0 text-uppercase">Formation Kubernetes</h2>
+              <p class="text-sm mb-0">Enix.io</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted"><img src="img/Kubernetes.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">Formation <a href="https://enix.io/fr/formation-kubernetes/" target="_blank" rel="noopener noreferrer">Kubernetes</a></p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2021 </p>
+              <h2 class="h5 mb-0 text-uppercase">Formation Microsoft Azure Fundamentals</h2>
+              <p class="text-sm mb-0">Microsoft</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted"><img src="img/Azure.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">Formation cloud - <a
+                  href="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/" target="_blank" rel="noopener noreferrer">Microsoft
+                  Azure</a></p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2020 </p>
+              <h2 class="h5 mb-0 text-uppercase">Formation Terraform</h2>
+              <p class="text-sm mb-0">WeScale</p><span class="small text-muted">Bordeaux, France</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted"><img src="img/Terraform.png" alt="" height="45" width="auto" style="vertical-align:middle;margin:0px 10px">Formation Infrastructure as code - <a
+                  href="https://training.wescale.fr/terraform" target="_blank" rel="noopener noreferrer">Terraform</a></p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2005 - 2008 </p>
+              <h2 class="h5 mb-0 text-uppercase">Ingénierie informatique - master</h2>
+              <p class="text-sm mb-0">CY Tech (ex EISTI)</p><span class="small text-muted">Pau, France</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">École d'ingénieurs en informatique</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ms-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row gx-0 gy-4">
+            <div class="col-lg-5">
+              <p class="fw-bold mb-2 text-primary text-sm">2003 - 2005 </p>
+              <h2 class="h5 mb-0 text-uppercase">Classes préparatoires - Math Sup Math Spé</h2>
+              <p class="text-sm mb-0">Lycée Nelson-Mandela (ex Louis Armand)</p><span class="small text-muted">Poitiers,
+                France</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Classes post-bac avec mathématiques intensives</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Contact Section        -->
+  <section class="bg-light py-5" id="contact">
+    <div class="container py-5">
+      <header class="mb-5 pb-4">
+        <p class="fw-bold text-primary text-uppercase letter-spacing-3">Call me, maybe.</p>
+        <h2 class="text-uppercase lined">Contact</h2>
+      </header>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6"><a class="px-4 py-5 text-center contact-item shadow-sm reset-anchor d-block"
+            href="#!"><i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Localisation</h4>
+            <p class="text-sm mb-0">Montréal, Canada</p>
+          </a></div>
+        <div class="col-lg-3 col-md-6"><a class="px-4 py-5 text-center contact-item shadow-sm reset-anchor d-block"
+            href="tel:534456886"><i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Téléphone</h4>
+            <p class="text-sm mb-0">+1 438 528 6079</p>
+          </a></div>
+        <div class="col-lg-3 col-md-6"><a class="px-4 py-5 text-center contact-item shadow-sm reset-anchor d-block"
+            href="mailto:julien.dufaud.org"><i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Website</h4>
+            <p class="text-sm mb-0">julien.dufaud.org</p>
+          </a></div>
+        <div class="col-lg-3 col-md-6"><a class="px-4 py-5 text-center contact-item shadow-sm reset-anchor d-block"
+            href="mailto:julien.dufaud.org"><i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Email</h4>
+            <p class="text-sm mb-0">julien@dufaud.org</p>
+          </a></div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer class="pt-5">
+    <div class="container text-center py-5">
+      <div class="row px-4">
+        <div class="col-lg-7 mx-auto">
+          <h2 class="text-uppercase mb-0">Julien Dufaud</h2>
+          <h6 class="text-primary text-uppercase mb-0 letter-spacing-3">Ingénieur Cloud DevOps</h6>
+          <p class="text-muted my-4">Tout automatiser</p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a class="social-link"
+                href="https://www.linkedin.com/in/julien-josselin-dufaud-48a6a7138/" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/front.js"></script>
+  <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</body>
+
+</html>
