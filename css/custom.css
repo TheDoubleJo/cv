@@ -1,1 +1,12 @@
 /* your styles go here */
+
+@media print {
+    .pagebreak {
+        page-break-before: always;
+    }
+
+    .navbar { display: none; }
+
+    footer { display: none; }
+
+}
